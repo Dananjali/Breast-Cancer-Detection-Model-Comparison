@@ -4,6 +4,8 @@
 
 This project focuses on predicting whether a breast cancer tumor is malignant or benign using machine learning techniques. The dataset used is the **Breast Cancer Wisconsin (Diagnostic) dataset**. The task is to classify the diagnosis into two categories: **Malignant (1)** and **Benign (0)**.
 
+Dataset used - https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+
 ## 🧠 What I Learned
 
 Throughout this project, I learned several key concepts in machine learning, particularly regarding data preprocessing, feature selection, model training, and evaluation. Here are some of the key takeaways:
