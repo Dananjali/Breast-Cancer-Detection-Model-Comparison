@@ -1,10 +1,10 @@
 # Breast-Cancer-Detection-Model-Comparison
 
-##🔍 Overview
+## 🔍 Overview
 
 This project focuses on predicting whether a breast cancer tumor is malignant or benign using machine learning techniques. The dataset used is the **Breast Cancer Wisconsin (Diagnostic) dataset**. The task is to classify the diagnosis into two categories: **Malignant (1)** and **Benign (0)**.
 
-##🧠 What I Learned
+## 🧠 What I Learned
 
 Throughout this project, I learned several key concepts in machine learning, particularly regarding data preprocessing, feature selection, model training, and evaluation. Here are some of the key takeaways:
 
@@ -28,7 +28,7 @@ For example, features like `radius_worst` and `radius_mean` had a high correlati
 
 ## Model Training and Evaluation
 
-###📉 Logistic Regression
+### 📉 Logistic Regression
 
 - **Logistic Regression** was trained and evaluated using the processed data. It performed well in distinguishing between malignant and benign tumors, with an accuracy score that reflected its ability to separate the two classes.
   
@@ -37,7 +37,7 @@ For example, features like `radius_worst` and `radius_mean` had a high correlati
   - **Classification Report**: This provided precision, recall, and F1-score to evaluate the performance in more detail.
   - **ROC Curve and AUC**: I computed the Receiver Operating Characteristic (ROC) curve and calculated the Area Under the Curve (AUC) to assess the model’s discriminative ability.
 
-###🌲 Random Forest
+### 🌲 Random Forest
 
 **Random Forest**, an ensemble method, was also trained on the same data. It is a more complex model that uses multiple decision trees to classify instances. While Random Forest is often more robust to overfitting, I found that Logistic Regression performed slightly better in this case. I also evaluated Random Forest using the same metrics (confusion matrix, classification report, accuracy) to ensure that I compared both models fairly.
 
@@ -45,7 +45,7 @@ For example, features like `radius_worst` and `radius_mean` had a high correlati
 
 I performed **cross-validation** with Logistic Regression to check its stability across different subsets of the data. The cross-validation scores confirmed that the model performed consistently, and its mean accuracy score provided an indication of its generalization ability.
 
-##⚖️ Comparison of Models
+## ⚖️ Comparison of Models
 
 **Logistic Regression** performed better in terms of overall accuracy and evaluation metrics like precision and recall. Given that this is a simpler model, it suggests that Logistic Regression is suitable for this type of problem, especially with fewer features after feature selection. **Random Forest** also performed reasonably well but did not outperform Logistic Regression on this dataset. However, it showed how ensemble methods like Random Forest can handle non-linear relationships and complex patterns.
 
